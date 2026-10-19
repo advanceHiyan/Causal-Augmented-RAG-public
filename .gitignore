@@ -1,0 +1,54 @@
+# Credentials and local environment
+.env
+.env.*
+*.pem
+*.key
+.venv/
+venv/
+.idea/
+.vscode/
+
+# Python and generated browser libraries
+__pycache__/
+*.py[cod]
+*.pyc.*
+.pytest_cache/
+/lib/
+
+# Runtime data, indexes, logs and private inputs
+/data/
+*.db
+*.db-*
+*.sqlite
+*.sqlite3
+*.sqlite3-*
+*.log
+*.json
+*.jsonl
+*.xlsx
+*.xls
+*.pickle
+*.bin
+
+# Experiment inputs, checkpoints and raw results
+/evaluation/BUAAEduPolicyQA/
+/evaluation/WixDataset/
+/evaluation_VS_hopRAG/rawDatasets/
+/evaluation_VS_hopRAG/processedDatasets/
+/evaluation_VS_hopRAG/benchmarks/
+/evaluation_VS_hopRAG/results/
+/evaluation_VS_hopRAG/manualAssets/
+/evaluation_VS_hopRAG/tmp_parallel_smoke/
+/evaluation_VS_hopRAG/external_hoprag_handoff/
+
+# Writing, presentations, collaboration artifacts and temporary files
+/outputs/
+/thesis/
+/thesis.rar
+/tmp_inspect/
+*.rar
+*.zip
+*.pptx
+*.docx
+
+# Existing tracked private files remain tracked; public export uses a separate allowlist.

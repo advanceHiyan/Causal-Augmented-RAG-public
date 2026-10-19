@@ -1,0 +1,4 @@
+method,n,failures,em,answer_f1,retrieval_precision,retrieval_recall,retrieval_f1,avg_retrieved_count,avg_elapsed_s
+Full-Causal,200,0,0.6,0.75097429,0.0845,0.71633333,0.15012424,20.0,100.88784
+No-RAG,200,0,0.3,0.40126587,0.0,0.0,0.0,0.0,0.78402
+Vector-Only,200,0,0.555,0.71036715,0.0845,0.71633333,0.15012424,20.0,17.251485
